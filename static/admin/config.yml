@@ -5,3 +5,18 @@ backend:
 publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
+
+collections:
+  - name: "home-sections"
+    label: "Home Sections"
+    folder: "content/home"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Subheading", name: "subheading", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Call to Action", name: "cta", widget: "markdown" }
