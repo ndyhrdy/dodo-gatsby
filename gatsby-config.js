@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Discover Makassar - with Dodo`,
+    description: `Everything you need for a pleasant travel experience in Makassar. Tour Guide, Travel Planner, Transport, Accomodation and more!`,
+    author: `@ndyhrdy`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
